@@ -1,9 +1,12 @@
 import ReduxBasic from "./ReduxBasic";
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
 
 function App() {
   return (
     <div>
-      <ReduxBasic />
+      <AddTodo />
+      <Todos />
     </div>
   );
 }
